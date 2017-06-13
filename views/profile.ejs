@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Baskin Robbin's</title>
+    <link rel='stylesheet' href='/stylesheets/style.css'</link>
+  </head>
+  <body>
+
+    <h1>Hi! Im Sarah</h1>
+
+    <p>My name is <%=name %>. I like science and all kinds of art. Im a student at Hack Adventure.
+      Last week we where learning about HTML and CSS.</p>
+
+   <ol>
+     <% hobbies.forEach( function(hobby){ %>
+       <li><%= hobby %></li>
+     <% }) %>
+  </body>
+
+</html>

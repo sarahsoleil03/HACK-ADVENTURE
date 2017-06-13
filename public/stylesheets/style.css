@@ -1,0 +1,22 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #01aeff;
+}
+h1 {
+  color: #ff0291;
+}
+
+.blue{
+  color: #ff0291;
+  background-color: #ff0291;
+}
+
+h1 div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
